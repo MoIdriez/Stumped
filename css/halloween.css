@@ -1,0 +1,11 @@
+.special-event {
+    background: url("https://i.pinimg.com/736x/e3/cd/49/e3cd49b4dbf285048abbd8a97aee5044--halloween-face-halloween-pumpkins.jpg");
+	margin-bottom: 0px;
+	margin-top: 60px;
+	height: 92px;
+	background-position: center top;
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}

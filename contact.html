@@ -1,0 +1,213 @@
+<html>
+<head>
+	<title>Contact Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+	<!--<link rel="stylesheet" href="css/christmas.css">-->
+	<!--<link rel="stylesheet" href="css/happy-new-year.css">-->
+	<!--<link rel="stylesheet" href="css/chinese-new-year.css">-->
+	<!--<link rel="stylesheet" href="css/mothers-day.css">-->	
+	<!--<link rel="stylesheet" href="css/halloween.css">-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/site.js"></script>
+	<script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/map.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2-dk1ANjjHROY6WJ6Snbveyl9-CUuQlg"></script>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+	<a class="navbar-brand" href="home.html" title="Stumped!"><img src="image/stumped_logo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="home.html">Home </a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="faqs.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For You </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="services.html">Services </a>
+						<a class="dropdown-item" href="prevent.html">Prevention </a>
+						<a class="dropdown-item" href="pre-op.html">Pre Op </a>
+						<a class="dropdown-item" href="post-op.html">Post Op </a>
+						<a class="dropdown-item" href="at-home.html">At Home </a>
+						<a class="dropdown-item" href="peer-support.html">Peer Support </a>
+						<a class="dropdown-item" href="event-amputee.html">Event </a>
+						<a class="dropdown-item" href="faqs.html">FAQs </a>
+					</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="story-list.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Stories </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="story-list.html">Story List </a>
+						<a class="dropdown-item" href="story.html">Your Story </a>
+					</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="servicepro.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For Healthcare Professional </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="servicepro.html">Find Services </a>
+						<a class="dropdown-item" href="event-pro.html">Events </a>
+						<a class="dropdown-item" href="resource-index.html">Resources Index </a>
+						<a class="dropdown-item" href="contactpro.html">Get in Touch </a>
+					</div>
+			</li>
+			<li class="nav-item dropdown  active">
+				<a class="nav-link dropdown-toggle" href="company.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About us <span class="sr-only">(current)</span></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="company.html">Mission & Vission </a>
+						<a class="dropdown-item" href="milestones.html">Milestones</a>
+						<a class="dropdown-item" href="testimonials.html">Testimonials</a>
+						<a class="dropdown-item" href="team.html">Team </a>
+						<a class="dropdown-item" href="contact.html">Contact us</a>						
+					</div>
+			</li>
+		</ul>
+	</div>
+</nav>
+<!-- Navigation Bar -->
+
+<!-- Secondary Navigation -->
+<div class="container">
+	<div class="row">
+		<div class="col-sm">
+			<h5 style="text-align:center;"><a href="company.html" class="title">Mission & Vission </a></h5>
+		</div>
+		<div class="col-sm">
+			<h5  style="text-align:center;"><a href="milestones.html" class="title">Milestones </a></h5>
+		</div>
+		<div class="col-sm">
+			<h5  style="text-align:center;"><a href="testimonials.html" class="title">Testimonials </a></h5>
+		</div>
+		<div class="col-sm">
+			<h5  style="text-align:center;"><a href="team.html" class="title">Team </a></h5>
+		</div>
+		<div class="col-sm">
+			<h5  style="text-align:center;"><a href="contact.html" class="title"><font color="#F4BC33"><u>Contact Us </u></font></a></h5>
+		</div>
+	</div>
+</div>
+<!-- Secondary Navigation -->
+
+<!-- Map Section -->
+<div>
+	<div id="map" style="width:100%;height:450px;"></div>
+</div>
+<!-- Map Section -->
+ 
+<!-- Content 1 -->
+<section id="address">
+	<h3 style="text-align:center;">Address: Gipsy Lane, Oxford</h3>
+	<h3 style="text-align:center;">Email:  info@stumped.org.uk</h3>
+</section>
+<!-- Content1 -->
+
+<!-- Content 2 -->
+<form id="storiesForm" novalidate>
+<div class="container">
+	<div class="form-row">
+		<div class="form-group col-md-4">
+			<label for="firstname"><h4 style="margin-left:0px ;margin-right:0px;">Title</h4></label>
+			<input type="text" class="form-control" id="firstname" placeholder="First name">
+		</div>
+		<div class="form-group col-md-4">
+			<label for="firstname"><h4 style="margin-left:0px ;margin-right:0px;">First name</h4></label>
+			<input type="text" class="form-control" id="firstname" placeholder="First name" required>
+			<div class="invalid-feedback" id="firstnameValidator"> Please insert your first name </div>
+		</div>
+		<div class="form-group col-md-4">
+			<label for="lastname"><h4 style="margin-left:0px ;margin-right:0px;">Last name</h4></label>
+			<input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+			<div class="invalid-feedback" id="lastnameValidator"> Please insert your last name </div>
+		</div>
+	</div>
+	<div class="form-row">
+		<div class="form-group col-md-4">
+			<label for="iam"><h4 style="margin-left:0px ;margin-right:0px;">I am</h4></label>
+			    <select class="form-control" id="iam">
+					<option>Patient</option>
+					<option>Healthcare Professional</option>
+					<option>Other</option>
+				</select>
+		</div>
+		<div class="form-group col-md-4">
+			<label for="gender"><h4 style="margin-left:0px ;margin-right:0px;">Gender</h4></label>
+				<select class="form-control" id="gender">
+					<option>Male</option>
+					<option>Female</option>
+				</select>
+		</div>
+		<div class="form-group col-md-4">
+			<label for="age"><h4 style="margin-left:0px ;margin-right:0px;">Age Group</h4></label>
+			<select class="form-control" id="age">
+				<option>younger than 20 years old</option>
+				<option>20-29 years old</option>
+				<option>30-39 years old</option>
+				<option>40-49 years old</option>
+				<option>50-59 years old</option>
+				<option>60 years old or over</option>
+			</select>
+		</div>
+	</div>
+	<div class="form-row">
+		<div class="form-group col-md-6">
+			<label for="email-address"><h4 style="margin-left:0px ;margin-right:0px;">Email address</h4></label>
+			<input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+		</div>
+		<div class="form-group col-md-6">
+			<label for="phone-number"><h4 style="margin-left:0px ;margin-right:0px;">Phone number</h4></label>
+			<input type="text" class="form-control" id="phone" placeholder="0741*******">
+		</div>
+	</div>
+	<div class="form-row">
+		<label for="subject"><h4>Subject</h4></label>
+		<input type="text" class="form-control" id="subject" placeholder="Subject">
+	</div>
+	<div class="form-row">
+		<label for="your-story"><h4 style="margin-top:15px; margin-left:0px ;margin-right:0px;">Your Message</h4></label>
+		<textarea class="form-control" id="story" rows="7" placeholder="Your story" required></textarea>
+		<div class="invalid-feedback" id="storyValidator"> Please write your message </div>
+	</div>
+	<br>
+	<button type="submit" class="btn btn-primary" style="background-color: rgb(244, 188, 51); color: black; border: 1px solid black; text-align: center;"><h5 style="margin-top:5px;">send message</h5></button>
+</form>
+</div>
+<!-- Content 2 -->
+
+<!-- special event -->
+<div class="special-event">
+	<h3 style="color:rgba(255, 255, 255, 0);">Special Event</h3>
+</div>
+<!-- special event -->
+
+<!-- Footer -->
+<footer id="footer">
+	<div class="social_media">
+	<h2 class="sr-only">social media</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<a href="https://www.facebook.com/StumpedUK" class="icon-facebook" title="facebook"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://twitter.com/stumpeduk" class="icon-twitter" title="twitter"><i class="fa fa-twitter-square"></i></a>
+					<br>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div><h5>Oxford OX3 0BP &#9830; (+44) 7592 490400 &#9830; info@stumped.org.uk<h5></div>
+	<div><h5>&copy; 2017 STUMPED! All Rights Reserved</h5></div>
+</footer>
+<!-- Footer -->
+
+</body>
+</html>

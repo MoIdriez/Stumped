@@ -1,0 +1,13 @@
+.special-event {
+    background: url("http://www.newdesignfile.com/postpic/2009/04/small-christmas-tree-icon_79446.png");
+	position: relative;
+	margin-bottom: 0px;
+	margin-top: 60px;
+	margin-left: -10px;
+	height: 170px;
+	background-position: center top;
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}

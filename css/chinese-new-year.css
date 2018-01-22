@@ -1,0 +1,12 @@
+.special-event {
+    background: url("https://image.flaticon.com/sprites/share/packs/189016-chinese-new-year.png");
+	margin-bottom: -10px;
+	margin-top: 0px;
+	margin-left: -200px;
+	height: 165px;
+	background-position: center top;
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}
