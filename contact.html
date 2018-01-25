@@ -113,73 +113,73 @@
 <!-- Content1 -->
 
 <!-- Content 2 -->
-<form id="storiesForm" novalidate>
+<form id="contactForm" novalidate method="post" action="scripts/contact.php">
 <div class="container">
 	<div class="form-row">
 		<div class="form-group col-md-4">
-			<label for="firstname"><h4 style="margin-left:0px ;margin-right:0px;">Title</h4></label>
-			<input type="text" class="form-control" id="firstname" placeholder="First name">
+			<label for="title"><h4 style="margin-left:0px ;margin-right:0px;">Title</h4></label>
+			<input type="text" class="form-control" name="title" id="title" placeholder="Title">
 		</div>
 		<div class="form-group col-md-4">
 			<label for="firstname"><h4 style="margin-left:0px ;margin-right:0px;">First name</h4></label>
-			<input type="text" class="form-control" id="firstname" placeholder="First name" required>
+			<input type="text" class="form-control" name="firstname" id="firstname" placeholder="First name" required>
 			<div class="invalid-feedback" id="firstnameValidator"> Please insert your first name </div>
 		</div>
 		<div class="form-group col-md-4">
 			<label for="lastname"><h4 style="margin-left:0px ;margin-right:0px;">Last name</h4></label>
-			<input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+			<input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last name" required>
 			<div class="invalid-feedback" id="lastnameValidator"> Please insert your last name </div>
 		</div>
 	</div>
 	<div class="form-row">
 		<div class="form-group col-md-4">
 			<label for="iam"><h4 style="margin-left:0px ;margin-right:0px;">I am</h4></label>
-			    <select class="form-control" id="iam">
-					<option>Patient</option>
-					<option>Healthcare Professional</option>
-					<option>Other</option>
+			    <select class="form-control" name="usertype" id="iam">
+					<option value="patient">Patient</option>
+					<option value="professional">Healthcare Professional</option>
+					<option value="other">Other</option>
 				</select>
 		</div>
 		<div class="form-group col-md-4">
 			<label for="gender"><h4 style="margin-left:0px ;margin-right:0px;">Gender</h4></label>
-				<select class="form-control" id="gender">
-					<option>Male</option>
-					<option>Female</option>
+				<select class="form-control" name="gender" id="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
 				</select>
 		</div>
 		<div class="form-group col-md-4">
 			<label for="age"><h4 style="margin-left:0px ;margin-right:0px;">Age Group</h4></label>
-			<select class="form-control" id="age">
-				<option>younger than 20 years old</option>
-				<option>20-29 years old</option>
-				<option>30-39 years old</option>
-				<option>40-49 years old</option>
-				<option>50-59 years old</option>
-				<option>60 years old or over</option>
-			</select>
+				<select class="form-control" name="age" id="age">
+					<option value="younger than 20 years old">younger than 20 years old</option>
+					<option value="20-29 years old">20-29 years old</option>
+					<option value="30-39 years old">30-39 years old</option>
+					<option value="40-49 years old">40-49 years old</option>
+					<option value="50-59 years ">50-59 years old</option>
+					<option value="60 years old or over">60 years old or over</option>
+				</select>
 		</div>
 	</div>
 	<div class="form-row">
 		<div class="form-group col-md-6">
 			<label for="email-address"><h4 style="margin-left:0px ;margin-right:0px;">Email address</h4></label>
-			<input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+			<input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
 		</div>
 		<div class="form-group col-md-6">
 			<label for="phone-number"><h4 style="margin-left:0px ;margin-right:0px;">Phone number</h4></label>
-			<input type="text" class="form-control" id="phone" placeholder="0741*******">
+			<input type="text" class="form-control" name="phone" id="phone" placeholder="0741*******">
 		</div>
 	</div>
 	<div class="form-row">
 		<label for="subject"><h4>Subject</h4></label>
-		<input type="text" class="form-control" id="subject" placeholder="Subject">
+		<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
 	</div>
 	<div class="form-row">
-		<label for="your-story"><h4 style="margin-top:15px; margin-left:0px ;margin-right:0px;">Your Message</h4></label>
-		<textarea class="form-control" id="story" rows="7" placeholder="Your story" required></textarea>
-		<div class="invalid-feedback" id="storyValidator"> Please write your message </div>
+		<label for="message"><h4 style="margin-top:15px; margin-left:0px ;margin-right:0px;">Your Message</h4></label>
+		<textarea class="form-control" name="message" id="message" rows="7" placeholder="Your Message" required></textarea>
+		<div class="invalid-feedback" id="messageValidator"> Please write your message </div>
 	</div>
 	<br>
-	<button type="submit" class="btn btn-primary" style="background-color: rgb(244, 188, 51); color: black; border: 1px solid black; text-align: center;"><h5 style="margin-top:5px;">send message</h5></button>
+	<button type="submit" class="btn btn-primary" style="background-color: rgb(244, 188, 51); color: black; border: 1px solid black; text-align: center;"><h5 style="margin-top:5px;">Send Message</h5></button>
 </form>
 </div>
 <!-- Content 2 -->
@@ -189,6 +189,26 @@
 	<h3 style="color:rgba(255, 255, 255, 0);">Special Event</h3>
 </div>
 <!-- special event -->
+
+<!-- Modal -->
+<div class="modal fade" id="modalCentered" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Contact</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
 
 <!-- Footer -->
 <footer id="footer">

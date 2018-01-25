@@ -15,48 +15,63 @@ $(document).ready(function () {
 		}
 	});
 	
-	$("#storiesForm").on('submit', function(event){
+	if (/[?&]r=/.test(location.search)) {
+		$('#modalCentered').modal('show')
+		if(window.location.search.replace('?r=', '') == 'success') {
+			$(".modal-body").html("Thank you, your message was successfully received by us.");
+		} else {
+			$(".modal-body").html("Your message failed could you please try again or contact us at ...");
+		}
+		window.history.replaceState({}, document.title, location.protocol + "//" + location.host + location.pathname);
+	}
+	/*
+	evnnt = event
+	e = element
+	evl = elementValidator
+	min = minimum length
+	max = maximum length
+	message = error message displayed
+	*/
+	function validateText(evnt, e, evl,  min, max, message) {
+		if(e.val().length < min || e.val().length > max){
+			evnt.preventDefault();
+			evnt.stopPropagation();
+			e.addClass("is-invalid");
+			e[0].setCustomValidity("zzz");
+			evl.html(message);
+		} else {
+			e.removeClass("is-invalid");
+			e.addClass("is-invalid");
+			e[0].setCustomValidity("");
+			evl.html("");
+		}
+	}
+	
+	$("#contactForm").on('submit', function(event){
 		debugger;
+		
+		validateText(event, $("#firstname"), $("#firstnameValidator"), 2, 50, "Please input your first name");
+		validateText(event, $("#lastname"), $("#lastnameValidator"), 2, 50, "Please input your last name");
+		validateText(event, $("#message"), $("#messageValidator"), 2, 225, "Please input between 2 and 225 characters");
+		
 		if($("form")[0].checkValidity() == false){
 			event.preventDefault();
 			event.stopPropagation();
 		}
-		//form.classList.add("was-validated");
-
-		if($("#firstname").length < 2 || $("#firstname").length > 50){
-			debugger;
-			event.preventDefault();
-			event.stopPropagation();
-			$("#firstname").addClass("is-invalid");
-			$("#firstname")[0].setCustomValidity("zzz");
-			$("#firstnameValidator").html("Please input your first name");
-		}
 		
-		if($("#lastname").length < 2 || $("#lastname").length > 50){
-			debugger;
-			event.preventDefault();
-			event.stopPropagation();
-			$("#lastname").addClass("is-invalid");
-			$("#lastname")[0].setCustomValidity("zzz");
-			$("#lastnameValidator").html("Please input your last name");
-		}
-		
-		if($("#lastname").length < 2 || $("#lastname").length > 50){
-			debugger;
-			event.preventDefault();
-			event.stopPropagation();
-			$("#lastname").addClass("is-invalid");
-			$("#lastname")[0].setCustomValidity("zzz");
-			$("#lastnameValidator").html("Please input your last name");
-		}
-		
+		$("#contactForm").addClass("was-validated");
+	});
+	
+	$("#storiesForm").on('submit', function(event){
 		debugger;
-		if($("#story").length < 2 || $("#story").length > 500) {
+		
+		validateText(event, $("#firstname"), $("#firstnameValidator"), 2, 50, "Please input your first name");
+		validateText(event, $("#lastname"), $("#lastnameValidator"), 2, 50, "Please input your last name");
+		validateText(event, $("#story"), $("#messageValidator"), 2, 225, "Please input between 2 and 225 characters");
+		
+		if($("form")[0].checkValidity() == false){
 			event.preventDefault();
 			event.stopPropagation();
-			$("#story").addClass("is-invalid");
-			$("#story")[0].setCustomValidity("zzz");
-			$("#storyValidator").html("Please input between 2 and 500 characters");
 		}
 		
 		$("#storiesForm").addClass("was-validated");
