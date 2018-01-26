@@ -59,5 +59,56 @@ CREATE TABLE CONTACT (
 INSERT INTO USERTYPE (TYPE) VALUES ('ADMIN'), ('PROFESSIONAL'), ('PATIENT');
 INSERT INTO CONTACTTYPE (TYPE) VALUES ('CONTACT'), ('STORY'), ('EVENT');
 
+INSERT INTO CONTACT (
+	CONTACTTYPEID,
+	TITLE,
+	FIRSTNAME,
+	LASTNAME,
+	USERTYPE,
+	GENDER,
+	AGEGROUP,
+	EMAIL,
+	PHONENUMBER,
+	SUBJECT,
+	MESSAGE
+	) VALUES (
+	2,
+	'DR',
+	'Samuel',
+	'Watson',
+	'patient',	
+	'MALE',
+	'45',
+	's.watson@uni.com',
+	'07558746988',
+	'I used to hate myself',
+	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.'
+);
+
+INSERT INTO CONTACT (
+	CONTACTTYPEID,
+	TITLE,
+	FIRSTNAME,
+	LASTNAME,
+	USERTYPE,
+	GENDER,
+	AGEGROUP,
+	EMAIL,
+	PHONENUMBER,
+	SUBJECT,
+	MESSAGE
+	) VALUES (
+	2,
+	'DR',
+	'James',
+	'Hooper',
+	'patient',	
+	'MALE',
+	'45',
+	'j.hooper@uni.com',
+	'07776581477',
+	'That was really tough',
+	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.'
+);
 
 	
