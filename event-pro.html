@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css/bootstrap-year-calendar.min.css">
 	<!--<link rel="stylesheet" href="css/christmas.css">-->
 	<!--<link rel="stylesheet" href="css/happy-new-year.css">-->
 	<!--<link rel="stylesheet" href="css/chinese-new-year.css">-->
@@ -16,6 +18,9 @@
     <script src="js/site.js"></script>
 	<script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<script src="js/bootstrap-year-calendar.js"></script>
+	<script src="js/calendar.js"></script>
 </head>
 <body>
 
@@ -103,8 +108,29 @@
 <!-- Intro -->
 <section>
 	<h1>Events for Healthcare Professional</h1>
+	<div id="calendar"></div>
 </section>
 <!-- Intro -->
+
+<!-- Modal -->
+<div class="modal fade" id="event-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Event Detail</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body"> Coming up...</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
 
 <!-- special event -->
 <div class="special-event">

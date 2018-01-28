@@ -11,7 +11,6 @@
 		aboutUsMission, aboutUsMilestones, aboutUsTestimonials, aboutUsTeam, aboutUsContact
 <!-- Navigation Bar -->
 <?php
-	setupHeader("home", "");
 	function setupHeader($mainHeader, $subHeader) {
 		mainHeader($mainHeader);
 		if (strpos($subHeader, 'forYou') !== false) {
