@@ -1,14 +1,14 @@
 <?php
-	$page_title = 'Milestones';
+	$page_title = 'MILESTONES';
 	$page_css = '';
 	$page_js = '';
 
 	$header_main = 'aboutUs';
 	$header_sub = 'aboutUsMilestones';
 
-	$banner_title = '';
-	$banner_content = '';
-	$banner_image = '/content/image/Photo1.jpg';
+	$banner_title = 'MILESTONES';
+	$banner_content = 'Discover what has started our passion to create a one-stop website to support amputees and clinicians and the milestones we’ve achieved.';
+	$banner_image = '/content/image/Milestones Photo.JPG';
 
 	$content = '
 	
@@ -24,10 +24,10 @@
 		<div class="direction-r">
 			<div class="flag-wrapper">
 				<span class="symbol"></span>
-				<h3 style="margin-left:0px ;margin-right:0px;"><span class="flag">OBSEA: Dragons Den</span></h3>
-				<h4 style="margin-left:0px ;margin-right:0px;"><span class="time-wrapper"><span class="time">February 2017</span></h4></span>
+				<h3><span class="flag">OBSEA: Dragon’s Den</span></h3>
+				<h4><span class="time-wrapper"><span class="time">February 2017</span></h4></span>
 			</div>
-			<div class="desc"><p style="margin-left:0px ;margin-right:0px;">After conducting preliminary research, Stumped! competed in a Dragons Den type competition chaired by Oxford Brookes Social Enterpreneursip Awards (OBSEA) with the view of receiving funding to further research our idea. The panel are from various backgrounds including: business, technology, healthcare and funding was offered courtasy of Santander Bank.</p></div>
+			<div class="desc"><p>After conducting preliminary research, Stumped! competed in a ’Dragon’s Den’ type competition chaired by Oxford Brookes Social Entrepreneurship Awards (OBSEA) with the view of receiving funding to further researching the area of interest. The panel was diverse, including professionals from: business, technology, healthcare and funding was offered courtesy of Santander Bank.</p></div>
 		</div>
 	</li>
 	<!-- Item 1 -->
@@ -37,10 +37,10 @@
 		<div class="direction-l">
 			<div class="flag-wrapper">
 				<span class="symbol"></span>
-				<h3 style="margin-left:0px ;margin-right:0px;"><span class="flag">Global Challenge Nomination</h3></span>
-				<h4 style="margin-left:0px ;margin-right:0px;"><span class="time-wrapper"><span class="time">21st March 2017</span></h4></span>
+				<h3><span class="flag">Global Challenge Nomination</h3></span>
+				<h4><span class="time-wrapper"><span class="time">21st March 2017</span></h4></span>
 			</div>
-			<div class="desc"><p style="margin-left:0px ;margin-right:0px;">"Try it" Award<br>After a successful pitch at the Dragons Den, Stumped! were nominated to represent Oxford Brookes University in Global Challenge organised by Oxford University. Additionally, funding was awarded to conduct further investigations into our project idea.</p></div>
+			<div class="desc"><p>"Try it" Award<br>After a successful pitch at the Dragon’s Den, Stumped! were nominated to represent Oxford Brookes University in Global Challenge organised by Oxford University. Additionally, funding was awarded to conduct further investigations into the project idea.</p></div>
 		</div>
 	</li>
 	<!-- Item 2 -->
@@ -50,10 +50,10 @@
 		<div class="direction-r">
 			<div class="flag-wrapper">
 				<span class="symbol"></span>
-				<h3 style="margin-left:0px ;margin-right:0px;"><span class="flag">University Newsletter</span></h3>
-				<h4 style="margin-left:0px ;margin-right:0px;"><span class="time-wrapper"><span class="time">26th April 2017</span><h4></span>
+				<h3><span class="flag">University Newsletter</span></h3>
+				<h4><span class="time-wrapper"><span class="time">26th April 2017</span><h4></span>
 			</div>
-			<div class="desc"><p style="margin-left:0px ;margin-right:0px;">Oxford Brookes University shared our success in representing the univeristy in a Global Challenge hosted by Oxford University.</p></div>
+			<div class="desc"><p>Oxford Brookes University shared Stumped! success in the University Newsletter. </p></div>
 		</div>
 	</li>
 	<!-- Item 3 -->
@@ -63,10 +63,10 @@
 		<div class="direction-l">
 			<div class="flag-wrapper">
 				<span class="symbol"></span>
-				<h3 style="margin-left:0px ;margin-right:0px;"><span class="flag">Global Challenge Finalists</span></h3>
-				<h4 style="margin-left:0px ;margin-right:0px;"><span class="time-wrapper"><span class="time">1st May 2017</span></h4></span>
+				<h3><span class="flag">Global Challenge Finalists</span></h3>
+				<h4><span class="time-wrapper"><span class="time">1st May 2017</span></h4></span>
 			</div>
-			<div class="desc"><p style="margin-left:0px ;margin-right:0px;">After the nomination by Oxford Brookes University, Stumped! were shortlisted from 200 applications from different universities around the world to the top 12 teams from America To Asia.</p></div>
+			<div class="desc"><p>After the nomination from Oxford Brookes University, Stumped! were one of the 12 teams shortlisted from 200 applications worldwide.</p></div>
 		</div>
 	</li>
 	<!-- Item 4 -->
@@ -76,10 +76,10 @@
 		<div class="direction-r">
 			<div class="flag-wrapper">
 				<span class="symbol"></span>
-				<h3 style="margin-left:0px ;margin-right:0px;"><span class="flag">Founders Day</span></h3>
-				<h4 style="margin-left:0px ;margin-right:0px;"><span class="time-wrapper"><span class="time">24th May 2017</span></h4></span>
+				<h3><span class="flag">Founder’s Day</span></h3>
+				<h4><span class="time-wrapper"><span class="time">24th May 2017</span></h4></span>
 			</div>
-			<div class="desc"><p style="margin-left:0px ;margin-right:0px;">"Do it" Award<br>Stumped! received further funding to implement a product based on the work done utilising Try It award. Mentoring from OBSEA as well as Grant Thornton is ongoing.</p></div>
+			<div class="desc"><p>"Do it" Award<br>Stumped! received further funding to implement a product based on the work done utilising ’Try It’ award. Mentoring from OBSEA as well as Grant Thornton is ongoing.</p></div>
 		</div>
 	</li>
 	<!-- Item 5 -->
@@ -89,10 +89,10 @@
 		<div class="direction-l">
 			<div class="flag-wrapper">
 				<span class="symbol"></span>
-				<h3 style="margin-left:0px ;margin-right:0px;"><span class="flag">Student Leadership</span></h3>
-				<h4 style="margin-left:0px ;margin-right:0px;"><span class="time-wrapper"><span class="time">June-September 2017</span></h4></span>
+				<h3><span class="flag">Student Leadership</span></h3>
+				<h4><span class="time-wrapper"><span class="time">June-September 2017</span></h4></span>
 			</div>
-			<div class="desc"><p style="margin-left:0px ;margin-right:0px;">An exciting opportunity for selected students across healthcare disciplines with particular leadership potential to further develop their skills through a four month long programme providing intensive training in the essential knowledge and skills for future healthcare leaders.</p></div>
+			<div class="desc"><p>Raluca secured a place in the programme run by the Council Of Deans Of Health as one of the few students selected from the UK,  across various healthcare disciplines. Raluca’s leadership potential was observed and through this four months longs programme she was mentored to further develop her leadership skills. Raluca with Pedro and her mentor in developing Stumped! and succeeded to establish working relationships with important stakeholders across the amputee arena, such as: King’s College Hospital, Guy’s and St Thomas’s’ Hospital, Oxford University Hospitals, Health Education England and others.</p></div>
 		</div>
 	</li>
 	<!-- Item 6 -->
@@ -102,10 +102,10 @@
 		<div class="direction-r">
 			<div class="flag-wrapper">
 				<span class="symbol"></span>
-				<h3 style="margin-left:0px ;margin-right:0px;"><span class="flag">Presentation at OBSEA Launch</span></h3>
-				<h4 style="margin-left:0px ;margin-right:0px;"><span class="time-wrapper"><span class="time">4th October 2017</span><h4></span>
+				<h3><span class="flag">Presentation at OBSEA Launch</span></h3>
+				<h4><span class="time-wrapper"><span class="time">4th October 2017</span><h4></span>
 			</div>
-			<div class="desc"><p style="margin-left:0px ;margin-right:0px;">Stumped! were invited to present at the 2017 launch of the Oxford Brookes Social Entrepeneureship Awards to share the potential all students have when going the extra mile.</p></div>
+			<div class="desc"><p>Stumped! were invited to present at the 2017 launch of the Oxford Brookes Social Entrepreneurship Awards as a student representative guest alongside Richard Frost (Founder of Motivation / Resonance). </p></div>
 		</div>
 	</li>
 	<!-- Item 7 -->
@@ -115,10 +115,10 @@
 		<div class="direction-l">
 			<div class="flag-wrapper">
 				<span class="symbol"></span>
-				<h3 style="margin-left:0px ;margin-right:0px;"><span class="flag">Diabetic Foot Masterclass</span></h3>
-				<h4 style="margin-left:0px ;margin-right:0px;"><span class="time-wrapper"><span class="time">6th December 2017</span></h4></span>
+				<h3><span class="flag">Diabetic Foot Masterclass</span></h3>
+				<h4><span class="time-wrapper"><span class="time">6th December 2017</span></h4></span>
 			</div>
-			<div class="desc"><p style="margin-left:0px ;margin-right:0px;">Stumped! were invited to the Conferece where the project was included in the section "Inovation from the nations / England" and promted and shared with experts in the area.</p></div>
+			<div class="desc"><p>Stumped! were invited to the yearly Conference organised by Kings College Hospital where the project was promotes as "Innovation from the nations / England". This facilitated new partnership revenues with experts in the field.</p></div>
 		</div>
 	</li>
 	<!-- Item 8 -->
