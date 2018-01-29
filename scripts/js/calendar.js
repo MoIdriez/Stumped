@@ -1,58 +1,49 @@
-function editEvent(event) {
-    $('#modalCentered').modal();
+function openEvent(events) {
+	
+	if (events.length > 0 ) {
+		$("#modalTitle").html("Events on that day");
+		var content = '';
+		events.forEach(function(ev) {
+			content += '<h3 style="color:' + ev["color"] + '">' + ev["name"] + '</h3>'
+						+ '<p><b>Description:</b></p><p> ' + ev["desc"] + '</p>'
+						+ '<p><b>Location:</b> <a href="' + ev["locationLink"] + '">' + ev["location"] + '</a></p>'
+						+ '<p><b>Link:</b> <a target="_blank" href="' + ev["link"] + '"> click here </a></p>';			
+		});
+		$(".modal-body").html(content);
+		$('#modalCentered').modal();	
+	}
 }
 
-function deleteEvent(event) {
-    var dataSource = $('#calendar').data('calendar').getDataSource();
-
-    for(var i in dataSource) {
-        if(dataSource[i].id == event.id) {
-            dataSource.splice(i, 1);
-            break;
-        }
-    }
-    
-    $('#calendar').data('calendar').setDataSource(dataSource);
-}
-
-function saveEvent() {
-    var event = {
-        id: $('#event-modal input[name="event-index"]').val(),
-        name: $('#event-modal input[name="event-name"]').val(),
-        location: $('#event-modal input[name="event-location"]').val(),
-        startDate: $('#event-modal input[name="event-start-date"]').datepicker('getDate'),
-        endDate: $('#event-modal input[name="event-end-date"]').datepicker('getDate')
-    }
-    
-    var dataSource = $('#calendar').data('calendar').getDataSource();
-
-    if(event.id) {
-        for(var i in dataSource) {
-            if(dataSource[i].id == event.id) {
-                dataSource[i].name = event.name;
-                dataSource[i].location = event.location;
-                dataSource[i].startDate = event.startDate;
-                dataSource[i].endDate = event.endDate;
-            }
-        }
-    }
-    else
-    {
-        var newId = 0;
-        for(var i in dataSource) {
-            if(dataSource[i].id > newId) {
-                newId = dataSource[i].id;
-            }
-        }
-        
-        newId++;
-        event.id = newId;
-    
-        dataSource.push(event);
-    }
-    
-    $('#calendar').data('calendar').setDataSource(dataSource);
-    $('#event-modal').modal('hide');
+function getEvents() {
+	var data = { "action" : "getEvents" };
+	data = $(this).serialize() + "&" + $.param(data);
+	
+	$.ajax({
+		type: "POST",
+		dataType: "json",
+		url: "/stumped-final/scripts/php/event.php",
+		data: data,
+		success: function(data) {
+			var dataSource = [];
+			Object.keys(data).forEach(function(key) {
+				if (data[key]["USERTYPEID"] === usertypeid) {
+					dataSource.push({
+						id: data[key]["ID"],
+						color: data[key]["USERTYPEID"] === "2" ? "blue" : "green",
+						name: data[key]["NAME"],
+						desc: data[key]["DESCRIPTION"],
+						link: data[key]["LINK"],
+						location: data[key]["LOCATION"],
+						locationLink: data[key]["LOCATIONLINK"],
+						startDate: new Date(data[key]["STARTTIME"]),
+						endDate: new Date(data[key]["ENDTIME"])
+					});
+				}
+			});
+			$('#calendar').data('calendar').setDataSource(dataSource);
+		}
+	});
+	
 }
 
 $(function() {
@@ -60,11 +51,14 @@ $(function() {
 
     $('#calendar').calendar({ 
         enableContextMenu: true,
-        enableRangeSelection: true,
-        selectRange: function(e) {
-			debugger;
-            editEvent({ startDate: e.startDate, endDate: e.endDate });
-        },
+        //enableRangeSelection: true,
+        //selectRange: function(e) {
+		//	debugger;
+        //    openEvent({ startDate: e.startDate, endDate: e.endDate });
+        //},
+		clickDay: function(e) {
+			openEvent(e.events);
+		},
         mouseOnDay: function(e) {
             if(e.events.length > 0) {
                 var content = '';
@@ -93,82 +87,8 @@ $(function() {
         },
         dayContextMenu: function(e) {
             $(e.element).popover('hide');
-        },
-        dataSource: [
-            {
-                id: 0,
-                name: 'Google I/O',
-                location: 'San Francisco, CA',
-                startDate: new Date(currentYear, 4, 28),
-                endDate: new Date(currentYear, 4, 29)
-            },
-            {
-                id: 1,
-                name: 'Microsoft Convergence',
-                location: 'New Orleans, LA',
-                startDate: new Date(currentYear, 2, 16),
-                endDate: new Date(currentYear, 2, 19)
-            },
-            {
-                id: 2,
-                name: 'Microsoft Build Developer Conference',
-                location: 'San Francisco, CA',
-                startDate: new Date(currentYear, 3, 29),
-                endDate: new Date(currentYear, 4, 1)
-            },
-            {
-                id: 3,
-                name: 'Apple Special Event',
-                location: 'San Francisco, CA',
-                startDate: new Date(currentYear, 8, 1),
-                endDate: new Date(currentYear, 8, 1)
-            },
-            {
-                id: 4,
-                name: 'Apple Keynote',
-                location: 'San Francisco, CA',
-                startDate: new Date(currentYear, 8, 9),
-                endDate: new Date(currentYear, 8, 9)
-            },
-            {
-                id: 5,
-                name: 'Chrome Developer Summit',
-                location: 'Mountain View, CA',
-                startDate: new Date(currentYear, 10, 17),
-                endDate: new Date(currentYear, 10, 18)
-            },
-            {
-                id: 6,
-                name: 'F8 2015',
-                location: 'San Francisco, CA',
-                startDate: new Date(currentYear, 2, 25),
-                endDate: new Date(currentYear, 2, 26)
-            },
-            {
-                id: 7,
-                name: 'Yahoo Mobile Developer Conference',
-                location: 'New York',
-                startDate: new Date(currentYear, 7, 25),
-                endDate: new Date(currentYear, 7, 26)
-            },
-            {
-                id: 8,
-                name: 'Android Developer Conference',
-                location: 'Santa Clara, CA',
-                startDate: new Date(currentYear, 11, 1),
-                endDate: new Date(currentYear, 11, 4)
-            },
-            {
-                id: 9,
-                name: 'LA Tech Summit',
-                location: 'Los Angeles, CA',
-                startDate: new Date(currentYear, 10, 17),
-                endDate: new Date(currentYear, 10, 17)
-            }
-        ]
+        }
     });
-    
-    $('#save-event').click(function() {
-        saveEvent();
-    });
+	
+	getEvents();
 });

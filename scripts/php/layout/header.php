@@ -63,6 +63,7 @@
 									<a class="dropdown-item" href="' . $document_root . '/forYou/post-op.php">Post Op </a>
 									<a class="dropdown-item" href="' . $document_root . '/forYou/at-home.php">At Home </a>
 									<a class="dropdown-item" href="' . $document_root . '/forYou/peer-support.php">Peer Support </a>
+									<a class="dropdown-item" href="' . $document_root . '/forYou/event-amputee.php">Patient Events</a>
 									<a class="dropdown-item" href="' . $document_root . '/forYou/faqs.php">FAQs </a>
 								</div>
 						</li>
