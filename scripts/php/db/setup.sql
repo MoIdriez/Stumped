@@ -37,15 +37,17 @@ CREATE TABLE EVENT (
 	LINK VARCHAR(255)
 );
 
-CREATE TABLE CONTACTTYPE (
+CREATE TABLE STORY (
 	ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	TYPE VARCHAR(15)
+	NAME VARCHAR(255),
+	TITLE VARCHAR(255),
+	QUOTE VARCHAR(255),
+	STORY TEXT
 );
 
 CREATE TABLE CONTACT (
 	ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	CONTACTTYPEID INT NOT NULL,
-	
+		
 	TITLE VARCHAR(255),
 	FIRSTNAME VARCHAR(255),
 	LASTNAME VARCHAR(255),
@@ -57,13 +59,11 @@ CREATE TABLE CONTACT (
 	EMAIL VARCHAR(100),
 	PHONENUMBER VARCHAR(100),
 	SUBJECT VARCHAR(255),
-	MESSAGE VARCHAR(255),
-	FOREIGN KEY (CONTACTTYPEID) REFERENCES CONTACTTYPE(ID)
+	MESSAGE VARCHAR(255)
 );
 
 #some initial population
 INSERT INTO USERTYPE (TYPE) VALUES ('ADMIN'), ('PROFESSIONAL'), ('PATIENT');
-INSERT INTO CONTACTTYPE (TYPE) VALUES ('CONTACT'), ('STORY'), ('EVENT');
 
 INSERT INTO EVENT (
 	USERTYPEID,
@@ -129,58 +129,3 @@ INSERT INTO EVENT (
 	'Google I/O (simply I/O) is an annual developer conference held by Google in San Francisco, California.',
 	'https://events.google.com/io/explore/'	
 	);	
-
-
-/*
-INSERT INTO CONTACT (
-	CONTACTTYPEID,
-	TITLE,
-	FIRSTNAME,
-	LASTNAME,
-	USERTYPE,
-	GENDER,
-	AGEGROUP,
-	EMAIL,
-	PHONENUMBER,
-	SUBJECT,
-	MESSAGE
-	) VALUES (
-	2,
-	'DR',
-	'Samuel',
-	'Watson',
-	'patient',	
-	'MALE',
-	'45',
-	's.watson@uni.com',
-	'07558746988',
-	'I used to hate myself',
-	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.'
-);
-
-INSERT INTO CONTACT (
-	CONTACTTYPEID,
-	TITLE,
-	FIRSTNAME,
-	LASTNAME,
-	USERTYPE,
-	GENDER,
-	AGEGROUP,
-	EMAIL,
-	PHONENUMBER,
-	SUBJECT,
-	MESSAGE
-	) VALUES (
-	2,
-	'DR',
-	'James',
-	'Hooper',
-	'patient',	
-	'MALE',
-	'45',
-	'j.hooper@uni.com',
-	'07776581477',
-	'That was really tough',
-	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.'
-);
-*/

@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="/stumped-final/scripts/css/bootstrap-year-calendar.min.css">
 	';
 	$page_js = '
-	<script> var usertypeid = "3"; </script>
+	<script> var usertypeid = "2"; </script>
 	<script src="/stumped-final/scripts/js/bootstrap-year-calendar.js"></script>
 	<script src="/stumped-final/scripts/js/calendar.js"></script>
 	';
