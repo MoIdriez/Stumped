@@ -565,3 +565,34 @@ ul {list-style-type: none;}
 
 .app-row { margin-bottom: 100px; }
 .app-icon { width: 100%; }
+
+.blockquote { 
+	font-size: 16px !important;
+    font-style: italic;
+	quotes: "\201C""\201D""\2018""\2019"; 
+}
+.blockquote:before {     
+	color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+.blockquote:after {
+	color: #ccc;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.readmore, .readless {
+	color: rgb(244, 188, 51);
+    font-style: italic;
+	font-weight: bold;
+	cursor: pointer;
+}
+.readless { display:none; }
+.morecontent { width: 100%; display:none; }

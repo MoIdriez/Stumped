@@ -21,7 +21,7 @@ function db_connect() {
     if(!isset($connection)) {
          // Load configuration as an array. Use the actual location of your configuration file
 		 // NOTE: MAKE SURE THIS FILE IS NOT ACCESSIBLE FROM THE WEB
-        $config = parse_ini_file('config.ini'); 
+        $config = parse_ini_file($_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/config.ini'); 
         $connection = mysqli_connect($config['host'],$config['username'],$config['password'],$config['dbname']);
     }
     // If connection was not successful, handle the error
