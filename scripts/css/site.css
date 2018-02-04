@@ -480,7 +480,6 @@ hr{
 	color: rgb(244, 188, 51);
 	background-color: rgb(244, 188, 51);
 	border: none;
-	margin-top: -50px;
 }
 
 #videobackground {
@@ -622,3 +621,10 @@ ul {list-style-type: none;}
 	margin-right:0px;
 	margin-top:10px;
 }
+
+.image-rot { transform: rotate(-90deg); }
+
+.image-team {
+    width: 200px;	
+}
+

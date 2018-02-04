@@ -17,7 +17,7 @@
 	<div class="card">
 		<div class="card-header" id="headingA">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseA" aria-expanded="false" aria-controls="collapseA">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseA" aria-expanded="false" aria-controls="collapseA">
 				A
 				</button>
 			</h5>
@@ -31,7 +31,7 @@
 	<div class="card">
 		<div class="card-header" id="headingB">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseB" aria-expanded="false" aria-controls="collapseB">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseB" aria-expanded="false" aria-controls="collapseB">
 				B
 				</button>
 			</h5>
@@ -45,7 +45,7 @@
 	<div class="card">
 		<div class="card-header" id="headingC">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseC" aria-expanded="false" aria-controls="collapseC">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseC" aria-expanded="false" aria-controls="collapseC">
 				C
 				</button>
 			</h5>
@@ -123,7 +123,7 @@
 	<div class="card">
 		<div class="card-header" id="headingE">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseE" aria-expanded="false" aria-controls="collapseE">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseE" aria-expanded="false" aria-controls="collapseE">
 				E
 				</button>
 			</h5>
@@ -137,7 +137,7 @@
 	<div class="card">
 		<div class="card-header" id="headingF">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseF" aria-expanded="false" aria-controls="collapseF">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseF" aria-expanded="false" aria-controls="collapseF">
 				F
 				</button>
 			</h5>
@@ -151,7 +151,7 @@
 	<div class="card">
 		<div class="card-header" id="headingG">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseG" aria-expanded="false" aria-controls="collapseG">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseG" aria-expanded="false" aria-controls="collapseG">
 				G
 				</button>
 			</h5>
@@ -165,7 +165,7 @@
 	<div class="card">
 		<div class="card-header" id="headingH">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseH" aria-expanded="false" aria-controls="collapseH">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseH" aria-expanded="false" aria-controls="collapseH">
 				H
 				</button>
 			</h5>
@@ -179,7 +179,7 @@
 	<div class="card">
 		<div class="card-header" id="headingI">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseI" aria-expanded="false" aria-controls="collapseI">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseI" aria-expanded="false" aria-controls="collapseI">
 				I
 				</button>
 			</h5>
@@ -193,7 +193,7 @@
 	<div class="card">
 		<div class="card-header" id="headingJ">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseJ" aria-expanded="false" aria-controls="collapseJ">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseJ" aria-expanded="false" aria-controls="collapseJ">
 				J
 				</button>
 			</h5>
@@ -207,7 +207,7 @@
 	<div class="card">
 		<div class="card-header" id="headingK">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseK" aria-expanded="false" aria-controls="collapseK">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseK" aria-expanded="false" aria-controls="collapseK">
 				K
 				</button>
 			</h5>
@@ -221,7 +221,7 @@
 	<div class="card">
 		<div class="card-header" id="headingL">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseL" aria-expanded="false" aria-controls="collapseL">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseL" aria-expanded="false" aria-controls="collapseL">
 				L
 				</button>
 			</h5>
@@ -235,7 +235,7 @@
 	<div class="card">
 		<div class="card-header" id="headingM">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseM" aria-expanded="false" aria-controls="collapseM">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseM" aria-expanded="false" aria-controls="collapseM">
 				M
 				</button>
 			</h5>
@@ -249,7 +249,7 @@
 	<div class="card">
 		<div class="card-header" id="headingN">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseN" aria-expanded="false" aria-controls="collapseN">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseN" aria-expanded="false" aria-controls="collapseN">
 				N
 				</button>
 			</h5>
@@ -453,7 +453,7 @@
 	<div class="card">
 		<div class="card-header" id="headingQ">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseQ" aria-expanded="false" aria-controls="collapseQ">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseQ" aria-expanded="false" aria-controls="collapseQ">
 				Q
 				</button>
 			</h5>
@@ -467,7 +467,7 @@
 	<div class="card">
 		<div class="card-header" id="headingR">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseR" aria-expanded="false" aria-controls="collapseR">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseR" aria-expanded="false" aria-controls="collapseR">
 				R
 				</button>
 			</h5>
@@ -481,7 +481,7 @@
 	<div class="card">
 		<div class="card-header" id="headingS">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseS" aria-expanded="false" aria-controls="collapseS">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseS" aria-expanded="false" aria-controls="collapseS">
 				S
 				</button>
 			</h5>
@@ -526,7 +526,7 @@
 	<div class="card">
 		<div class="card-header" id="headingU">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseU" aria-expanded="false" aria-controls="collapseU">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseU" aria-expanded="false" aria-controls="collapseU">
 				U
 				</button>
 			</h5>
@@ -540,7 +540,7 @@
 	<div class="card">
 		<div class="card-header" id="headingV">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseV" aria-expanded="false" aria-controls="collapseV">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseV" aria-expanded="false" aria-controls="collapseV">
 				V
 				</button>
 			</h5>
@@ -554,7 +554,7 @@
 	<div class="card">
 		<div class="card-header" id="headingW">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseW" aria-expanded="false" aria-controls="collapseW">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseW" aria-expanded="false" aria-controls="collapseW">
 				W
 				</button>
 			</h5>
@@ -568,7 +568,7 @@
 	<div class="card">
 		<div class="card-header" id="headingX">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseX" aria-expanded="false" aria-controls="collapseX">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseX" aria-expanded="false" aria-controls="collapseX">
 				X
 				</button>
 			</h5>
@@ -582,7 +582,7 @@
 	<div class="card">
 		<div class="card-header" id="headingY">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseY" aria-expanded="false" aria-controls="collapseY">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseY" aria-expanded="false" aria-controls="collapseY">
 				Y
 				</button>
 			</h5>
@@ -596,7 +596,7 @@
 	<div class="card">
 		<div class="card-header" id="headingZ">
 			<h5 class="mb-0">
-				<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseZ" aria-expanded="false" aria-controls="collapseZ">
+				<button disabled class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseZ" aria-expanded="false" aria-controls="collapseZ">
 				Z
 				</button>
 			</h5>
