@@ -31,13 +31,18 @@ $(document).ready(function () {
 			evl.html("");
 		}
 	}
+	$("#iam").change(function () {
+		if ($("#iam").val() === "patient") {
+			$("#amputation").parent().show();
+		} else {
+			$("#amputation").parent().hide();
+		}
+	});
 	
 	$("#contactForm").on('submit', function(event){
-		debugger;
-		
 		validateText(event, $("#firstname"), $("#firstnameValidator"), 2, 50, "Please input your first name");
-		validateText(event, $("#lastname"), $("#lastnameValidator"), 2, 50, "Please input your last name");
-		validateText(event, $("#message"), $("#messageValidator"), 2, 225, "Please input between 2 and 225 characters");
+		validateText(event, $("#subject"), $("#subjectValidator"), 2, 225, "Please input your subject");
+		validateText(event, $("#message"), $("#messageValidator"), 2, 10000, "Please input your message");
 		
 		if($("form")[0].checkValidity() == false){
 			event.preventDefault();
@@ -46,22 +51,6 @@ $(document).ready(function () {
 		
 		$("#contactForm").addClass("was-validated");
 	});
-	
-	$("#storiesForm").on('submit', function(event){
-		debugger;
-		
-		validateText(event, $("#firstname"), $("#firstnameValidator"), 2, 50, "Please input your first name");
-		validateText(event, $("#lastname"), $("#lastnameValidator"), 2, 50, "Please input your last name");
-		validateText(event, $("#story"), $("#messageValidator"), 2, 225, "Please input between 2 and 225 characters");
-		
-		if($("form")[0].checkValidity() == false){
-			event.preventDefault();
-			event.stopPropagation();
-		}
-		
-		$("#storiesForm").addClass("was-validated");
-	});
-	
 	$(".readmore, .readless").click(function () {
 		$(".readmore[data-id='" + $(this).data('id') + "'], .readless[data-id='" + $(this).data('id') + "'], .morecontent[data-id='" + $(this).data('id') + "']").toggle();
 	});

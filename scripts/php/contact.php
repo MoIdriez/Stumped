@@ -5,6 +5,7 @@
 	$firstname = $_POST['firstname'];
 	$lastname = $_POST['lastname'];
 	$usertype = $_POST['usertype'];
+	$amputation = $_POST['amputation'];
 	$gender = $_POST['gender'];
 	$age = $_POST['age'];
 	$email = $_POST['email'];
@@ -18,6 +19,7 @@
 	FIRSTNAME,
 	LASTNAME,
 	USERTYPE,
+	AMPUTATION,
 	GENDER,
 	AGEGROUP,
 	EMAIL,
@@ -30,6 +32,7 @@
 	'$firstname',
 	'$lastname',
 	'$usertype',	
+	'$amputation',	
 	'$gender',
 	'$age',
 	'$email',

@@ -596,3 +596,16 @@ ul {list-style-type: none;}
 }
 .readless { display:none; }
 .morecontent { width: 100%; display:none; }
+
+.form-row h4 { margin-left:0px ;margin-right:0px; }
+.form-row span { color:red; }
+
+
+.submitButton {
+	background-color: rgb(244, 188, 51);
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.submitButton h5 { margin-top:5px; }
