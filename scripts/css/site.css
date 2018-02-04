@@ -609,3 +609,16 @@ ul {list-style-type: none;}
 }
 
 .submitButton h5 { margin-top:5px; }
+
+#all-button	{
+	background-color: rgb(244, 188, 51);
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.title_form {
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:10px;
+}

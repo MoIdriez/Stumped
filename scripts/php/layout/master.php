@@ -80,6 +80,11 @@ $content = main content
 <!-- Modal -->
 
 <footer id="footer">
+	<div>
+		<h4>
+			<a href="<?php echo $document_root; ?> /login/user_login.php"><u>Log in</u></a>
+			<a href="<?php echo $document_root; ?> /login/user_registration.php"><u>Sign up</u></a><h4>
+	</div>
 	<div class="social_media">
 	<h2 class="sr-only">social media</h2>
 		<div class="container">
