@@ -10,6 +10,8 @@
 	$banner_content = 'Find information and practical steps to promote the health of your feet and prevent complication and potential amputation.';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1 -->

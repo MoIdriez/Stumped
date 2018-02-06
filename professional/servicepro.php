@@ -10,6 +10,8 @@
 	$banner_content = 'Find evidence-based expertise from professionals across the care pathway. Access infographics which can assist in your decision-making process. Search for contact details and referral forms in one place.';
 	$banner_image = '/content/image/Photo1.jpg';
 
+	$usertype = '12';
+
 	$content = '
 	
 <!-- Content 1 -->

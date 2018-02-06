@@ -10,6 +10,8 @@
 	$banner_content = 'Here we look at the most common causes of amputations.   Most amputations are preventable, and this page will broaden your knowledge, understanding and offer you practical skills to manage your health and where possible, prevent amputations.';
 	$banner_image = '/content/image/Photo1.jpg';
 
+	$usertype = '';
+
 	$content = '
 	
 <!-- Content 1 -->

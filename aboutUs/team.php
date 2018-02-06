@@ -10,6 +10,8 @@
 	$banner_content = 'We have set up to deliver a ‘one-stop’ website that offers information about services and best practice across the care pathway from prevention, pre-amputation, post amputation, and rehabilitation to patients themselves, their family and friends, and clinicians. This will ensure that collected expertise is easily available in one place and that patients are signposted to the latest, quality information to better understand their care pathway therefore increasing their autonomy and facilitating their ability to make informed decisions about their care.';
 	$banner_image = '/content/image/Photo17.jpg';
 
+	$usertype = '';
+
 	$content = '	
 		<!-- Intro -->
 		<section>

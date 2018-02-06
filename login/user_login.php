@@ -10,27 +10,24 @@
 	$banner_content = '';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 		<!-- content -->
 		<section>
 			<h2>User Login</h2>
-			<form action="#.php" method="post">
+			<form id="loginForm" action="document_root/scripts/php/user/login.php" novalidate method="post">
 				<div class="container">
 					<div class="form-row">
-						<div class="form-group col-md-4">
+						<div class="form-group col-md-6">
 							<label for="email"><h4 class="title_form">Email*</h4></label>
-							<input type="text" class="form-control" id="email" placeholder="for example: abc@gmail.com">
+							<input type="email" class="form-control" name="email" id="email" placeholder="for example: abc@gmail.com" required>
+							<div class="invalid-feedback" id="emailValidator">Please enter a valid email</div>
 						</div>
-						<div class="form-group col-md-4">
-							<label for="user_type"><h4 class="title_form">User Type*</h4></label>
-								<select class="form-control" id="user_type">
-									<option>Healthcare Professional</option>
-									<option>Admin</option>
-								</select>
-						</div>
-						<div class="form-group col-md-4">
+						<div class="form-group col-md-6">
 							<label for="password"><h4 class="title_form">Password*</h4></label>
-							<input type="password" class="form-control" placeholder="Password" name="password" id="password" required></h3>
+							<input type="password" class="form-control" placeholder="Password" name="password" id="password" required>
+							<div class="invalid-feedback" id="passwordValidator">Please enter an email</div>
 						</div>
 					</div>
 					<button type="submit" class="btn btn-primary" id="all-button">

@@ -10,6 +10,8 @@
 	$banner_content = 'Find answers from professionals to the most commonly asked questions. Add your questions by contacting us <a href="aboutUs/contact.php" style="color: #FFFFFF;">here</a>.';
 	$banner_image = '/content/image/Photo14.jpg';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1 -->

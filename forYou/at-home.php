@@ -10,6 +10,8 @@
 	$banner_content = 'Going home should not be stressful. Find the support you can access once at home.';
 	$banner_image = '/content/image/Photo8.jpg';
 
+	$usertype = '';
+
 	$content = '
 	
 <!-- Content 1 -->

@@ -16,6 +16,8 @@
 			<br>(material reproduced from and copyright of the British Dietetic Association, Key Fact Sheet; Name, date, www.bda.uk.com’)';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 	
 <!-- Content 1-->

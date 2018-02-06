@@ -11,6 +11,8 @@
 	$banner_content = 'Stumped! offers you information about the services that are run by healthcare professionals which you may encounter before and after amputation. This may include: hospital wards, diabetes foot clinic, rehabilitation centres and many others.';
 	$banner_image = '/content/image/Photo4.jpg';
 
+	$usertype = '';
+
 	$content = 
 	
 		standard(

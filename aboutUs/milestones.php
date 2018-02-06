@@ -10,6 +10,8 @@
 	$banner_content = 'Discover what has started our passion to create a one-stop website to support amputees and clinicians and the milestones we’ve achieved.';
 	$banner_image = '/content/image/Milestones Photo.JPG';
 
+	$usertype = '';
+
 	$content = '
 	
 	<!-- Intro -->

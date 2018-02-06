@@ -1,0 +1,3 @@
+user_login.php>>	login as admin>> admin_login.php>>	check_stories.php (admin can add, edit, and delete stories)
+														check_events.php (admin can add, edit, and delete events)
+														check_contact.php (admin can add, edit, and delete events)

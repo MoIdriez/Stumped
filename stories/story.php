@@ -12,12 +12,11 @@
 	$banner_content = '';
 	$banner_image = '/content/image/Photo2.jpg';
 
+	$usertype = '';
 	$content = generateForm(
 	'Your Story',
 	'Story',
-	'/stumped-final/scripts/php/contact.php'	
+	'document_root/scripts/php/contact.php'	
 	);
 	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
 ?>
-</body>
-</html>

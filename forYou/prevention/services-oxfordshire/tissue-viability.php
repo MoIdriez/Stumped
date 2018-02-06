@@ -16,6 +16,8 @@
 		<br>The nurse-led team works in partnership with patients, their carers and healthcare professionals to provide expert wound care advice, specialist healthcare equipment and education that is aimed at preventing needless skin breakdown.';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1-->

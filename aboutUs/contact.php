@@ -16,6 +16,8 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2-dk1ANjjHROY6WJ6Snbveyl9-CUuQlg"></script>
 	';
 	
+	$usertype = '';
+
 	$content = '
 		<!-- Map Section -->
 		<div>

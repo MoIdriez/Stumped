@@ -10,6 +10,8 @@
 	$banner_content = 'Podiatrists assess, diagnose, offer advice and treat a wide range of foot problems - what used to be referred to as chiropody. Podiatrists are important in the care of people with diabetes and/or those with poor circulation and sensation in their feet. Podiatrists treat foot ulcers and all other foot problems, advise on foot health and supply pressure relieving insoles as required.';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1-->

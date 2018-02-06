@@ -10,6 +10,8 @@
 	$banner_content = 'Find out what you may want to consider before your amputation. Discover what services may be involved in this stage. Find advice regarding what you can do to increase your recovery chances from experts in the field.';
 	$banner_image = '/content/image/Photo18.jpg';
 
+	$usertype = '';
+
 	$content = '
 	
 <!-- Content 1 -->

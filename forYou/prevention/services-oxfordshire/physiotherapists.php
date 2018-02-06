@@ -10,6 +10,8 @@
 	$banner_content = 'Physiotherapists are the key health professional to advise in an attempt to stop the condition becoming worse, a physiotherapist will advise on exercise to reduce body fat and to improve how the body processes glucose. Both are key factors in managing diabetes.Physiotherapists also have a role in treating people with some of the complications of diabetes. These include difficulties with vision and sensory changes due to circulation problems and nerve damage, both of which affect a person’s safety. Some people may develop a dropped foot, causing them to trip, which requires exercise and also assessment for a foot splint. (adapted from http://www.csp.org.uk/your-health/conditions/type-2-diabetes#how-physiotherapy-help-diabetes)';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1-->

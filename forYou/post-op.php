@@ -10,6 +10,8 @@
 	$banner_content = 'What to expect after the amputation? What does rehabilitation involves? What happens if you are not fitted with a prosthesis? Find answers to this and more questions…';
 	$banner_image = '/content/image/Photo2.jpg';
 
+	$usertype = '';
+
 	$content = '
 	
 <!-- Content 1 -->

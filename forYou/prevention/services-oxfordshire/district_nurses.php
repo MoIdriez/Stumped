@@ -10,6 +10,8 @@
 	$banner_content = 'District Nurses play an important role in supporting individuals who can’t access the GP service manage and understand their diabetes. District Nurses are registered nurses who could help you with: prevention advice, using behaviour change and health coaching techniques Screening for diabetes, prevention and early detection of type 2 diabetes, promoting self-care, assessing and meeting the patient’s nutritional needs, blood glucose monitoring, oral and injectable therapies and much more.';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 	
 <!-- Content 1-->

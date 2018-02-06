@@ -10,6 +10,8 @@
 	$banner_content = 'Find and provide most up-to-date, evidence-based research across the amputee care pathway. Contact us here to share articles.';
 	$banner_image = '/content/image/Photo15.jpg';
 
+	$usertype = '12';
+
 	$content = '
 	
 <!-- Content 1 -->

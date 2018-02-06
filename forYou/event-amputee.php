@@ -8,6 +8,8 @@
 	$banner_content = 'A list of events on various themes, in and around Oxfordshire that you and your family can attend.';
 	$banner_image = '/content/image/Photo13.jpg';
 
+	$usertype = '';
+
 	$content = '
 	<section>
 		<div id="calendar"></div>

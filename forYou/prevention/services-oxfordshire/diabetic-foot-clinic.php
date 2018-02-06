@@ -10,6 +10,8 @@
 	$banner_content = 'A Diabetic Foot Clinic offers a multidisciplinary approach and one stop treatment for patients who have acute diabetic foot problems which may include diabetic foot ulcers, Chatcoat&#39;s osteoarthropathy, neuropathies, gangrene, foot amputations and other foot complications. The professionals working within this setting may include: diabetologist,  vascular surgeons, orthopeadic surgeon,  podiatrist, orthototists, prosthetists, diabetic specialist nurses, heath care assistants and others depending on the demand of the patients.';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1-->

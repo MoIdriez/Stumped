@@ -10,6 +10,8 @@
 	$banner_content = '';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '';
 	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
 ?>

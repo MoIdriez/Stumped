@@ -11,6 +11,8 @@
 	$banner_content = 'Stumped! offers you information about the services available to support you through this life-changing event, from: support groups, NHS run organisations, charities and much more.';
 	$banner_image = '/content/image/Photo6.jpg';
 
+	$usertype = '';
+
 	$content = 	
 		standard(
 			'Support Groups',

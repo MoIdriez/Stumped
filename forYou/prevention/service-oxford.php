@@ -10,6 +10,8 @@
 	$banner_content = 'Find information about professionals and services that you may come across when diagnosed with diabetes.';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1 -->

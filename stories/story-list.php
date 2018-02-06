@@ -12,6 +12,8 @@
 	';
 	$banner_image = '/content/image/Image for Inspirational Stories.jpg';
 
+	$usertype = '';
+
 	$content = getStories() . '
 		<!-- Content 5 -->
 		<section>

@@ -10,6 +10,8 @@
 	$banner_content = 'Here we have collected clinical information about the practical questions regarding amputations. Please find a collection of leaflets provided by reliable sources.';
 	$banner_image = '/content/image/Photo9.jpg';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1 -->

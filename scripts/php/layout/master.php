@@ -14,8 +14,21 @@ $banner_image = banner image link
 
 $content = main content
 
+$usertype = usertypelevel required
+
 -->
 <?php $document_root = '/stumped-final'; ?>
+<?php 
+	session_start();
+	if (
+		!empty($usertype) && (
+			!isset($_SESSION['USERTYPEID']) || strpos($usertype, $_SESSION['USERTYPEID']) === false
+			)
+		) {
+		header('Location: ' . $document_root . '/home.php'. '?p=failed');
+	}
+?>
+
 <html>
 <head>
 	<title><?php echo $page_title; ?></title>

@@ -10,6 +10,8 @@
 	$banner_content = 'Orthotists are vital in managing the the causes of complex mechanical pathologies. They assess, prescribe, apply and provide education regarding the use and care of an appropriate orthosis through the protection of your foot by keeping it intact and protected from ulceration depending on the deformities present i.e. hallux rigidus, hammer or claw toes.';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1-->

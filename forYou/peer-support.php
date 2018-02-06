@@ -10,6 +10,8 @@
 	$banner_content = 'No one should go through this life-changing event alone!<br>Access the VOLUNTEER PEER SCHEME offered by the charity Limbless Association and talk to a volunteer who has been in a similar situation.';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1 -->

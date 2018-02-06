@@ -9,6 +9,8 @@
 	$banner_title = '';
 	$banner_content = '';
 	$banner_image = '/content/image/Photo1.jpg';
+	
+	$usertype = '';
 
 	$content = '
 	

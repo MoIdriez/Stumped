@@ -10,6 +10,8 @@
 	$banner_content = 'Occupational Therapy enables patients to make the greatest use of their skills, in order to regain their independence and enhance their quality of life. An important part of rehabilitation after illness is the teaching of new or adapted skills to patients to prepare them for discharge from hospital.';
 	$banner_image = '';
 
+	$usertype = '';
+
 	$content = '
 
 <!-- Content 1-->

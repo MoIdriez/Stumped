@@ -10,6 +10,8 @@
 	$banner_content = 'Access information about public and private services that could support you in different stages of your care pathway.';
 	$banner_image = '/content/image/Photo3.jpg';
 
+	$usertype = '';
+
 	$content = '
 	
 <!-- Content1 -->

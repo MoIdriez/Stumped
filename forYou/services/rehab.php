@@ -11,6 +11,8 @@
 	$banner_content = 'Stumped! offers you information about the services available to support you get active before and/or after your amputation.';
 	$banner_image = '/content/image/Photo5.jpg';
 
+	$usertype = '';
+
 	$content = 	
 		standard(
 			'Fluid Motion',
