@@ -1,5 +1,5 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/db/mysqlifunction.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/db/mysqlifunction.php';
 	$page_title = 'Contact Managment';
 	$page_css = '';
 	$page_js = '';
@@ -48,7 +48,7 @@
 		}
 		return $table . "</table>";
 	}
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';	
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';	
 	
 
 

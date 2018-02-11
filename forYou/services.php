@@ -61,7 +61,7 @@
 <!-- Content1 -->
 	
 	';
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';
 
 
 ?>

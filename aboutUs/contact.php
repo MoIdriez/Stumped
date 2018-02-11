@@ -1,5 +1,5 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/generateForm.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/generateForm.php';
 	$page_title = 'Contact';
 	$page_css = '';
 	$page_js = '';
@@ -12,7 +12,7 @@
 	$banner_image = '';
 
 	$page_js = '
-	<script src="/stumped-final/scripts/js/map.js"></script>
+	<script src="/scripts/js/map.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2-dk1ANjjHROY6WJ6Snbveyl9-CUuQlg"></script>
 	';
 	
@@ -31,7 +31,7 @@
 		generateForm(
 		'Your Message',
 		'Message',
-		'/stumped-final/scripts/php/contact.php'	
+		'/scripts/php/contact.php'	
 		);
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';
 ?>

@@ -30,5 +30,5 @@
 		<p><b>If you know of any services that can benefit amputees and their family, please contact us <a href="document_root/aboutUs/contact.php">here</a>.</b></p>
 		
 		'; 
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';
 ?>

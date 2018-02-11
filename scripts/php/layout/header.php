@@ -39,7 +39,7 @@
 	
 	function logo($document_root) {
 		return 	'
-				<a class="navbar-brand" href="' . $document_root . '/home.php" title="Stumped!"><img src="/stumped-final/content/image/stumped_logo.png"></a>
+				<a class="navbar-brand" href="' . $document_root . '/index.php" title="Stumped!"><img src="' . $document_root . '/content/image/stumped_logo.png"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>

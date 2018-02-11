@@ -12,8 +12,7 @@
 	
 	$usertype = '';
 
-	$content = '
-	
+	$content = '	
 	<!-- Content 1 -->
 <section>
 <h2>STORIES</h2>
@@ -133,8 +132,4 @@
 	
 	';
 	include 'scripts/php/layout/master.php';
-
-
 ?>
-
-

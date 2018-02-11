@@ -19,7 +19,7 @@
 		<h3>To manage contacts <a href="contact_manage.php">click here</a></h3>
 		<h3>To manage stories <a href="story_manage.php">click here</a></h3>
 	';
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';
 	
 
 

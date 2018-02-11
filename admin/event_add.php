@@ -1,12 +1,12 @@
 <?php
 	$page_title = 'Add a Story';
 	$page_css = '
-	<link rel="stylesheet" href="/stumped-final/scripts/css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="/scripts/css/bootstrap-datetimepicker.min.css">
 	';
 	$page_js = '
-	<script src="/stumped-final/scripts/js/moment.js"></script>
-	<script src="/stumped-final/scripts/js/bootstrap-datetimepicker.js"></script>
-	<script src="/stumped-final/scripts/js/datetimepicker.js"></script>';
+	<script src="/scripts/js/moment.js"></script>
+	<script src="/scripts/js/bootstrap-datetimepicker.js"></script>
+	<script src="/scripts/js/datetimepicker.js"></script>';
 
 	$header_main = '';
 	$header_sub = '';
@@ -89,7 +89,7 @@
 </section>
 <!-- content -->
 ';
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';
 
 
 ?>

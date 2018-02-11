@@ -1,7 +1,7 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/db/mysqlifunction.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/db/mysqlifunction.php';
 	
-	session_start();
+	if (session_status() == PHP_SESSION_NONE) { session_start(); }
 	if (isset($_SESSION['USERTYPEID']) && $_SESSION['USERTYPEID'] == "1") {
 		$action = $_GET['a'];
 		$id = $_GET['id'];
@@ -18,7 +18,7 @@
 				break;
 		}
 	} else {
-		header('Location: ' . '/stumped-final/home.php'. '?p=failed');
+		header('Location: ' . '/index.php'. '?p=failed');
 	}
 
 	function executeUser($query) {

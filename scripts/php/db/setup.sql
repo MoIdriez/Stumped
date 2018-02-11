@@ -1,7 +1,7 @@
 #generating database
-DROP DATABASE IF EXISTS STUMPED;
-CREATE DATABASE STUMPED;
-USE STUMPED;
+#DROP DATABASE IF EXISTS STUMPED;
+#CREATE DATABASE stumpedo_stumped;
+USE stumpedo_stumped;
 
 #generating tables
 CREATE TABLE USERTYPE (

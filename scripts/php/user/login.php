@@ -14,12 +14,12 @@
 		$row = mysqli_fetch_assoc($result);
 		if (password_verify($password, $row['PASSWORD']) && $row['ISVERIFIED'] === "1") {
 			$dr = substr($_SERVER['HTTP_REFERER'], 0, strpos($_SERVER['HTTP_REFERER'], 'login'));
-			session_start();
+			if (session_status() == PHP_SESSION_NONE) { session_start(); }
 			$_SESSION["EMAIL"] = $email;
 			$_SESSION["USERTYPEID"] = $row['USERTYPEID'];
 			// if professional
 			if ($row['USERTYPEID'] == "2") {
-				header('Location: ' . $dr . 'home.php'. '?l=success');
+				header('Location: ' . $dr . 'index.php'. '?l=success');
 			} else if ($row['USERTYPEID'] == "1") {
 				header('Location: ' . $dr . 'admin/landing.php');
 			}			

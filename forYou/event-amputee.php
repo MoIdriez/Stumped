@@ -17,12 +17,12 @@
 	<h3 style="text-align:center">If you know of any other events that you would like to share, contact us <a href="document_root/aboutUs/contact.php"><u>here</u></a>.</h3>';
 	
 	$page_css = '
-	<link rel="stylesheet" href="/stumped-final/scripts/css/bootstrap-year-calendar.min.css">
+	<link rel="stylesheet" href="/scripts/css/bootstrap-year-calendar.min.css">
 	';
 	$page_js = '
 	<script> var usertypeid = "3"; </script>
-	<script src="/stumped-final/scripts/js/bootstrap-year-calendar.js"></script>
-	<script src="/stumped-final/scripts/js/calendar.js"></script>
+	<script src="/scripts/js/bootstrap-year-calendar.js"></script>
+	<script src="/scripts/js/calendar.js"></script>
 	';
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';
 ?>

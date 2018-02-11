@@ -11,7 +11,7 @@
 	$banner_image = '/content/image/Photo17.jpg';
 
 	$usertype = '';
-
+	
 	$content = '	
 		<!-- Intro -->
 		<section>
@@ -78,5 +78,5 @@
 		<!-- Content 3 -->
 	
 	';
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';
 ?>

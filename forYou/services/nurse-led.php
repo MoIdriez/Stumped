@@ -60,5 +60,5 @@
 			<p>Royal Berkshire Hospital: Telephone: 0118 322 5111</p>',
 			'fa-hospital-o'
 		);
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';
 ?>

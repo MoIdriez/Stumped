@@ -1,5 +1,5 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/generateForm.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/generateForm.php';
 
 	$page_title = 'Your Story Page';
 	$page_css = '';
@@ -18,5 +18,5 @@
 	'Story',
 	'document_root/scripts/php/contact.php'	
 	);
-	include $_SERVER['DOCUMENT_ROOT'] . '/stumped-final/scripts/php/layout/master.php';
+	include $_SERVER['DOCUMENT_ROOT'] . '/scripts/php/layout/master.php';
 ?>

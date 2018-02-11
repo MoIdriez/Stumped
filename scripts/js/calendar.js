@@ -21,7 +21,7 @@ function getEvents() {
 	$.ajax({
 		type: "POST",
 		dataType: "json",
-		url: "/stumped-final/scripts/php/event.php",
+		url: "/scripts/php/event.php",
 		data: data,
 		success: function(data) {
 			var dataSource = [];
