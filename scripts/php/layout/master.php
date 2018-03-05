@@ -1,14 +1,3 @@
-<?php $document_root = ''; ?>
-<?php 
-	if (session_status() == PHP_SESSION_NONE) { session_start(); }
-	if (
-		!empty($usertype) && (
-			!isset($_SESSION['USERTYPEID']) || strpos($usertype, $_SESSION['USERTYPEID']) === false
-			)
-		) {
-		header('Location: ' . $document_root . '/index.php'. '?p=failed');
-	}
-?>
 <!--
 
 This is the master page that expects the following variables
@@ -28,6 +17,18 @@ $content = main content
 $usertype = usertypelevel required
 
 -->
+<?php $document_root = '/stumped-final'; ?>
+<?php 
+	session_start();
+	if (
+		!empty($usertype) && (
+			!isset($_SESSION['USERTYPEID']) || strpos($usertype, $_SESSION['USERTYPEID']) === false
+			)
+		) {
+		header('Location: ' . $document_root . '/home.php'. '?p=failed');
+	}
+?>
+
 <html>
 <head>
 	<title><?php echo $page_title; ?></title>
@@ -92,11 +93,6 @@ $usertype = usertypelevel required
 <!-- Modal -->
 
 <footer id="footer">
-	<div>
-		<h4>
-			<a href="<?php echo $document_root; ?> /login/user_login.php"><u>Log in</u></a>
-			<a href="<?php echo $document_root; ?> /login/user_registration.php"><u>Sign up</u></a><h4>
-	</div>
 	<div class="social_media">
 	<h2 class="sr-only">social media</h2>
 		<div class="container">
