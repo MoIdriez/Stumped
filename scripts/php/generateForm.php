@@ -84,6 +84,7 @@
 					<div class="form-group col-md-6">
 						<label for="email-address"><h4>Email address<span>*</span></h4></h4></label>
 						<input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+						<div class="invalid-feedback" id="emailValidator"> Please insert your email </div>
 					</div>
 					<div class="form-group col-md-6">
 						<label for="phone-number"><h4>Phone number</h4></label>

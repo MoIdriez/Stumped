@@ -33,7 +33,7 @@ $(document).ready(function () {
 	if (/[?&]p=/.test(location.search)) {
 		$('#modalCentered').modal('show')
 		if(window.location.search.replace('?p=', '') == 'failed') {
-			$(".modal-body").html("Access to that page is prohibited, please login first.");
+			$(".modal-body").html('Access to that page is prohibited, please <a href="/login/user_login.php">login</a> first.');
 		}
 		window.history.replaceState({}, document.title, location.protocol + "//" + location.host + location.pathname);
 	}
@@ -93,6 +93,7 @@ $(document).ready(function () {
 		validateText(event, $("#firstname"), $("#firstnameValidator"), 2, 50, "Please input your first name");
 		validateText(event, $("#subject"), $("#subjectValidator"), 2, 225, "Please input your subject");
 		validateText(event, $("#message"), $("#messageValidator"), 2, 10000, "Please input your message");
+		validateText(event, $("#emai"), $("#emailValidator"), 2, 10000, "Please input your emai");
 		
 		if($("contactForm")[0].checkValidity() == false){
 			event.preventDefault();

@@ -80,9 +80,9 @@
 									<li>Horton General Hospital: 01865 229123 </li>
 								</ul>
 				
-							<li><b> Share your expertise:</b> We welcome and urge dietitians to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this.</li>
+							<li><b> Share your expertise:</b> We welcome and urge dietitians to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this.</li>
 							<li><b> download referral form:</b> this form is currently not available.</li>
-							<li><b> download flyers:</b> this option is currently not available. If you are a dietitian and would like to share flyers, <a href="aboutUs/contact.php"><b>contact us</b></a>.</li>
+							<li><b> download flyers:</b> this option is currently not available. If you are a dietitian and would like to share flyers, <a href="../aboutUs/contact.php"><b>contact us</b></a>.</li>
 						</ul>
 				</section>
 		
@@ -91,9 +91,9 @@
 					</p>
 						<ul>
 							<li><b> Contact details:</b> Oxford Centre for Diabetes, Endocrinology and Metabolism (OCDEM): Churchill Hospital, University of Oxford, Headington, Oxford, OX3 7LE, United Kingdom; +44 (0) 1865 857371 </li>
-							<li><b> Share your expertise:</b> We welcome and urge dietitians to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
+							<li><b> Share your expertise:</b> We welcome and urge dietitians to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
 							<li><b> download referral form:</b> this form is currently not available. </li>
-							<li><b> download flyers:</b> this option is currently not available. If you are a dietitian and would like to share flyers, <a href="aboutUs/contact.php"><b>contact us</b></a>. </li>
+							<li><b> download flyers:</b> this option is currently not available. If you are a dietitian and would like to share flyers, <a href="../aboutUs/contact.php"><b>contact us</b></a>. </li>
 						</ul>
 				</section>
 
@@ -102,9 +102,9 @@
 					</p>
 						<ul>
 							<li><b> Contact details:</b> Please contact your GP Surgery </li>
-							<li><b> Share your expertise:</b> We welcome and urge dietitians to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
+							<li><b> Share your expertise:</b> We welcome and urge dietitians to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
 							<li><b> download referral form:</b> this form is currently not available. </li>
-							<li><b> download flyers:</b> this option is currently not available. If you are a dietitian and would like to share flyers, <a href="aboutUs/contact.php"><b>contact us</b></a>. </li>
+							<li><b> download flyers:</b> this option is currently not available. If you are a dietitian and would like to share flyers, <a href="../aboutUs/contact.php"><b>contact us</b></a>. </li>
 						</ul>
 				</section>
 
@@ -113,7 +113,7 @@
 					</p>
 						<ul>
 							<li><b> Contact details:</b> Oxford Health NHS Foundation Trust Trust Headquarters Warneford Hospital Warneford Lane Headington Oxford OX3 7JX;  01865 901 000 </li>
-							<li><b> Share your expertise:</b> We welcome and urge district nurses to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
+							<li><b> Share your expertise:</b> We welcome and urge district nurses to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
 							<li><b> download referral form:</b> this form is currently not available. </li>
 							<li><b> download flyers:</b> Flyer saved under Flyer District Nurse. </li>
 						</ul>
@@ -278,7 +278,7 @@
 					<ul>
 						<li><b> Contact details:</b> Orthotics Service, Tebbit Centre, Nuffield Orthopaedic Centre, Windmill Road, Headington, Oxford OX3 7HE, Tel: 01865 227575, Monday to Friday 8.30am - 5.00pm, Fax: 01865 227943, email:ouh.orthotics@nhs.net </li>
 
-						<li><b> Share your expertise:</b> We welcome and urge orthotists to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
+						<li><b> Share your expertise:</b> We welcome and urge orthotists to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
 						<li><b> download referral form:</b> this form is currently not available;  </li>
 						<li>Enquiries on:  </li>
 							<ul>
@@ -286,7 +286,7 @@
 								<li>Horton General Hospital: 01865 227707 (Monday to Friday 9.30am - 2.30pm) </li>
 								<li>West Berkshire Community Hospital: 01865 227760 (Monday to Friday 8.30am - 5.00pm) </li>
 							</ul>
-						<li><b> download flyers:</b> this option is currently not available. If you are an orthotists and would like to share flyers, <a href="aboutUs/contact.php"><b>contact us</b></a>. </li>
+						<li><b> download flyers:</b> this option is currently not available. If you are an orthotists and would like to share flyers, <a href="../aboutUs/contact.php"><b>contact us</b></a>. </li>
 			</section>
 
 			<section>
@@ -300,9 +300,9 @@
 								<li>Nuffield Hospital: Tel: 01865 737551 </li>
 								<li>Horton General Hospital: Tel: 01295 229129 (answer phone only); Fax: 01295 229128 </li>
 			
-						<li><b> Share your expertise:</b> We welcome and urge occupational therapists to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
+						<li><b> Share your expertise:</b> We welcome and urge occupational therapists to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
 						<li><b> download referral form:</b> this form is currently not available. </li>
-						<li><b> download flyers:</b>  this option is currently not available. If you are an occupational therapist and would like to share flyers, <a href="aboutUs/contact.php"><b>contact us</b></a>. </li>
+						<li><b> download flyers:</b>  this option is currently not available. If you are an occupational therapist and would like to share flyers, <a href="../aboutUs/contact.php"><b>contact us</b></a>. </li>
 			</section>
 				
 			</div>
@@ -330,9 +330,9 @@
 								<li>Horton General Hospital; Tel: 01295 229432; Fax: 01295 229437;  - Rowan Ward Physiotherapy; Tel: 01295 229583 </li>
 							</ul>
 							
-						<li><b> Share your expertise:</b> We welcome and urge Physiotherapist to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
+						<li><b> Share your expertise:</b> We welcome and urge Physiotherapist to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
 						<li><b> download referral form:</b> this form is currently not available. </li>
-						<li><b> download flyers:</b> this option is currently not available. If you are a Physiotherapist and would like to share flyers, <a href="aboutUs/contact.php"><b>contact us</b></a>. </li>
+						<li><b> download flyers:</b> this option is currently not available. If you are a Physiotherapist and would like to share flyers, <a href="../aboutUs/contact.php"><b>contact us</b></a>. </li>
 					</ul>
 			</section>
 			
@@ -433,9 +433,9 @@
 					</tr>
 				</table>
 		
-					<li><b> Share your expertise:</b> We welcome and urge Podiatrists to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
+					<li><b> Share your expertise:</b> We welcome and urge Podiatrists to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
 					<li><b> download referral form:</b> this form is currently not available. </li>
-					<li><b> download flyers:</b> this option is currently not available. If you are a Podiatrist and would like to share flyers, <a href="aboutUs/contact.php"><b>contact us</b></a>. </li>
+					<li><b> download flyers:</b> this option is currently not available. If you are a Podiatrist and would like to share flyers, <a href="../aboutUs/contact.php"><b>contact us</b></a>. </li>
 				</ul>
 			</section>
 
@@ -444,9 +444,9 @@
 				</p>
 				<ul>
 					<li><b> Contact details:</b> Oxford Centre for Enablement, Prosthetics Department, Nuffield Orthopaedic Centre, Windmill Road, Headington, Oxford, OX3 7LD; 01865 227 295; info@opcare.co.uk </li>
-					<li><b> Share your expertise:</b> We welcome and urge prosthetists to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
+					<li><b> Share your expertise:</b> We welcome and urge prosthetists to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
 					<li><b> download referral form:</b> this form is currently not available.  </li>
-					<li><b> download flyers:</b> this option is currently not available. If you are a prosthetist and would like to share flyers, <a href="aboutUs/contact.php"><b>contact us</b></a>. </li>
+					<li><b> download flyers:</b> this option is currently not available. If you are a prosthetist and would like to share flyers, <a href="../aboutUs/contact.php"><b>contact us</b></a>. </li>
 				</ul>
 			</div>
 		</div>
@@ -515,9 +515,9 @@
 							<li>tissueviabilityadmin@oxfordhealth.nhs.uk for referral forms from Oxford Health email </li>
 							<li>oxfordhealth.tissueviability@nhs.net for clinicians using nhs.net email </li>
 						</ul>
-					<li><b> Share your expertise:</b> We welcome and urge Tissue Viability Nurses to share their expertise with other professionals across the amputee care pathway. <a href="aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
+					<li><b> Share your expertise:</b> We welcome and urge Tissue Viability Nurses to share their expertise with other professionals across the amputee care pathway. <a href="../aboutUs/contact.php"><b>Contact us</b></a> to find out how you could do this. </li>
 					<li><b> download referral form:</b> this form is currently not available. </li>
-					<li><b> download flyers:</b> this option is currently not available. If you are a Tissue Viability Nurse and would like to share flyers, <a href="aboutUs/contact.php"><b>contact us</b></a>. </li>
+					<li><b> download flyers:</b> this option is currently not available. If you are a Tissue Viability Nurse and would like to share flyers, <a href="../aboutUs/contact.php"><b>contact us</b></a>. </li>
 				</ul>
 			</section>
 			

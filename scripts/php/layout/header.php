@@ -39,7 +39,7 @@
 	
 	function logo($document_root) {
 		return 	'
-				<a class="navbar-brand" href="' . $document_root . '/index.php" title="Stumped!"><img src="' . $document_root . '/content/image/stumped_logo.png"></a>
+				<a class="navbar-brand" href="' . $document_root . '/" title="Stumped!"><img src="' . $document_root . '/content/image/stumped_logo.png"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -48,7 +48,14 @@
 	
 	function mainHeader($document_root, $mainHeader) {
 		echo	'
-				<nav class="navbar navbar-expand-lg navbar-light">
+				<div>
+					<h5 style="text-align: right; margin-right: 7%;">
+						<a href="' . $document_root . '/login/user_login.php"><u>Log in</u></a>
+						&nbsp;
+						<a href="' . $document_root . '/login/user_registration.php"><u>Sign up</u></a>
+					</h5>
+				</div>
+				<nav class="navbar navbar-expand-lg navbar-light" style="margin-top:-10px;>
 				' .
 				logo($document_root) .
 				'
@@ -59,8 +66,8 @@
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<a class="dropdown-item" href="' . $document_root . '/forYou/services.php">Services </a>
 									<a class="dropdown-item" href="' . $document_root . '/forYou/prevent.php">Prevention </a>
-									<a class="dropdown-item" href="' . $document_root . '/forYou/pre-op.php">Pre Op </a>
-									<a class="dropdown-item" href="' . $document_root . '/forYou/post-op.php">Post Op </a>
+									<a class="dropdown-item" href="' . $document_root . '/forYou/pre-op.php">Pre-amputation </a>
+									<a class="dropdown-item" href="' . $document_root . '/forYou/post-op.php">Rehabilitation </a>
 									<a class="dropdown-item" href="' . $document_root . '/forYou/at-home.php">At Home </a>
 									<a class="dropdown-item" href="' . $document_root . '/forYou/peer-support.php">Peer Support </a>
 									<a class="dropdown-item" href="' . $document_root . '/forYou/event-amputee.php">Patient Events</a>
@@ -102,7 +109,7 @@
 	//forYouServices, forYouPrevention, forYouPreOp, forYouPostOp, forYouAtHome, forYouPeerSupport, forYouPatient, forYouFAQ,
 	function forYouHeader($document_root, $subHeader) {
 		echo 	'
-				<div class="container">
+				<div class="container second-header">
 					<div class="row">
 						<div class="col-sm">
 							<h5  style="text-align:center;"><a href="' . $document_root . '/forYou/services.php" class="title ' . isSubHeader($subHeader, 'forYouServices') . ' ">Services</a></h5>
@@ -111,10 +118,10 @@
 							<h5  style="text-align:center;"><a href="' . $document_root . '/forYou/prevent.php" class="title ' . isSubHeader($subHeader, 'forYouPrevention') . ' ">Prevention </a></h5>
 						</div>
 						<div class="col-sm">
-							<h5  style="text-align:center;"><a href="' . $document_root . '/forYou/pre-op.php" class="title ' . isSubHeader($subHeader, 'forYouPreOp') . ' ">Pre Op </a></h5>
+							<h5  style="text-align:center;"><a href="' . $document_root . '/forYou/pre-op.php" class="title ' . isSubHeader($subHeader, 'forYouPreOp') . ' ">Pre-amputation </a></h5>
 						</div>
 						<div class="col-sm">
-							<h5  style="text-align:center;"><a href="' . $document_root . '/forYou/post-op.php" class="title ' . isSubHeader($subHeader, 'forYouPostOp') . ' ">Post Op </a></h5>
+							<h5  style="text-align:center;"><a href="' . $document_root . '/forYou/post-op.php" class="title ' . isSubHeader($subHeader, 'forYouPostOp') . ' ">Rehabilitation </a></h5>
 						</div>
 						<div class="col-sm">
 							<h5  style="text-align:center;"><a href="' . $document_root . '/forYou/at-home.php" class="title ' . isSubHeader($subHeader, 'forYouAtHome') . ' ">At Home </a></h5>
@@ -136,7 +143,7 @@
 	//storiesList, storiesYour,
 	function storiesHeader($document_root, $subHeader) {
 		echo	'
-				<div class="container">
+				<div class="container second-header">
 					<div class="row">
 						<div class="col-sm">
 							<h5 style="text-align:center;"><a href="' . $document_root . '/stories/story-list.php" class="title ' . isSubHeader($subHeader, 'storiesList') . ' ">Story List</a></h5>
@@ -152,7 +159,7 @@
 	//professionalServices, professionalEvents, professionalResources,
 	function professionalHeader($document_root, $subHeader) {
 		echo	'
-				<div class="container">
+				<div class="container second-header">
 					<div class="row">
 						<div class="col-sm">
 							<h5 style="text-align:center;"><a href="' . $document_root . '/professional/servicepro.php" class="title ' . isSubHeader($subHeader, 'professionalServices') . ' ">Find Services</a></h5>
@@ -171,7 +178,7 @@
 	//aboutUsTeam, aboutUsMilestones, aboutUsContact
 	function aboutUsHeader($document_root, $subHeader) {
 		echo	'
-				<div class="container">
+				<div class="container second-header">
 					<div class="row">
 						<div class="col-sm">
 							<h5 style="text-align:center;"><a href="' . $document_root . '/aboutUs/team.php" class="title ' . isSubHeader($subHeader, 'aboutUsTeam') . ' ">Meet the team </a></h5>

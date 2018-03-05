@@ -92,11 +92,6 @@ $usertype = usertypelevel required
 <!-- Modal -->
 
 <footer id="footer">
-	<div>
-		<h4>
-			<a href="<?php echo $document_root; ?> /login/user_login.php"><u>Log in</u></a>
-			<a href="<?php echo $document_root; ?> /login/user_registration.php"><u>Sign up</u></a><h4>
-	</div>
 	<div class="social_media">
 	<h2 class="sr-only">social media</h2>
 		<div class="container">
@@ -109,7 +104,10 @@ $usertype = usertypelevel required
 			</div>
 		</div>	
 	</div>
-	<div><h5>Oxford OX3 0BP &#9830; (+44) 7592 490400 &#9830; info@stumped.org.uk<h5></div>
+	<div><h5>Oxford OX3 0BP &#9830; (+44) 7592 490400 &#9830; 
+		<a href="mailto:info@stumped.org.uk" target="_top">
+	info@stumped.org.uk
+	</a><h5></div>
 	<div><h5>&copy; 2017 STUMPED! All Rights Reserved</h5></div>
 </footer>
 </body>

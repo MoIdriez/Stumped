@@ -628,3 +628,14 @@ ul {list-style-type: none;}
     width: 200px;	
 }
 
+.row.app-row a img {
+    width: 300px;
+}
+
+@media (max-width: 576px) 
+{
+    .second-header
+    {
+        display: none;
+    }
+}

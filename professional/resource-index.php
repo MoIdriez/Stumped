@@ -20,7 +20,7 @@
 	<div class="row">
 		<div class="col-sm" id="main-icon">
 			<h3>TOPICS</h3>
-			<p>Suggest a topic of interest by clicking <a href="aboutUs/contact.php">here</a>.
+			<p>Suggest a topic of interest by clicking <a href="../aboutUs/contact.php">here</a>.
 			</p>
 		</div>
 	</div>

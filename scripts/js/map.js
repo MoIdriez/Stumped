@@ -1,13 +1,13 @@
 $(function () {
 	function myMap() {
 	  var mapCanvas = document.getElementById("map");
-	  var mapLocation = new google.maps.LatLng(51.7480162, -1.1280869);
+	  var mapLocation = new google.maps.LatLng(51.7548008, -1.2228861,17);
 	  var mapOptions = {
 		center: mapLocation, zoom: 16
 	  };
 	  var map = new google.maps.Map(mapCanvas, mapOptions);
 	  
-	  var markerLocation = new google.maps.LatLng(51.748824, -1.126202);
+	  var markerLocation = new google.maps.LatLng(51.754651, -1.224120);
 	  var marker = new google.maps.Marker({
 				position: markerLocation,
 				map: map
