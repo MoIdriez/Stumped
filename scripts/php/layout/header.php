@@ -55,7 +55,7 @@
 						<a href="' . $document_root . '/login/user_registration.php"><u>Sign up</u></a>
 					</h5>
 				</div>
-				<nav class="navbar navbar-expand-lg navbar-light" style="margin-top:-10px;>
+				<nav class="navbar navbar-expand-lg navbar-light" style="margin-top:-10px;">
 				' .
 				logo($document_root) .
 				'
